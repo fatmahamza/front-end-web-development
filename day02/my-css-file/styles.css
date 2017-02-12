@@ -33,3 +33,15 @@ table {
 
 
 /* Styles for 10-containers.html */
+h1 {
+	text-align: center;
+}
+
+ol {
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	padding: 1em;
+}
