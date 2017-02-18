@@ -28,7 +28,8 @@
 
 /* Styles for 09-tables.html */
 table {
-	text-align: center; /*Notice how this doesn't align the entire table -- just the text within each cell.*/
+	text-align: center; /* Notice how this doesn't align the entire table -- just the text within each cell. */
+	margin: auto; /* This centers the table by telling the browser to set equal margins on each side of the element */
 }
 
 
