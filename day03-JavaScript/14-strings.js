@@ -1,4 +1,5 @@
-// Strings
+// Strings are another data type used to identify text. They can be created with single
+// or double quotes.
 
 'My name is Farhad'
 
@@ -6,13 +7,14 @@
 
 "His name's Frank"
 
-'His name\'s Frank'
+// The \ is an escape character. It can be used for actions such as adding an apostrophe
+// or creating new lines.
 
+'His name\'s Frank'
 
 'My name\'s Farhad. \nHis name\'s Frank.'
 
-
-// Concatenation
+// Concatenation can be used for combining strings
 
 'cooncat' + 'enation'
 
