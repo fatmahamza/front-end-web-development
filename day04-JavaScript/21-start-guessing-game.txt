@@ -1,0 +1,9 @@
+Your first project is to create a guessing game. The end result will be a game in which the computer generates a random number and the user tries to guess that number. You will then tell the user whether their guess was correct.
+
+The concepts we covered today should be enough to get you started.  Do the following:
+
+- Declare a variable called computerChoice and assign it the value of a randomly generated number.
+
+- Declare a variable called userChoice and assign it the value of input taken from a user.  You can do this by setting the prompt() function as the value of this variable.
+
+- Lastly, check if the userChoice and computerChoice are equal.
