@@ -29,3 +29,19 @@ if (userAge < 13) {
 else {
 	alert('Welcome to the game!');
 };
+
+
+// If you need more than 2 alternative conditions, you can use if/else if/else chains.
+
+var userAge = prompt('What is your age?');
+console.log(userAge);
+
+if (userAge < 13) {
+	alert('You are too young to play this game.');
+}
+else if (userAge >= 13) {
+	alert('Welcome to the game!');
+}
+else {
+	alert('Welcome to the game!');
+};
