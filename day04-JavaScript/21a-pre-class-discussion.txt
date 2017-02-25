@@ -1,0 +1,8 @@
+- Future homework graded on a scale of 0-10.
+
+- Tests in the mornings. Pass/Fail. 
+
+- Certificates of Completion for students who, at minimum, receive 90% on assignments and pass at least 4 of the 6 exams.
+
+- 15-30 minutes for whiteboarding in each class.
+- Each morning will have a test followed by code review of an assignment
