@@ -31,7 +31,7 @@ else {
 };
 
 
-// If you need more than 2 alternative conditions, you can use if/else if/else chains.
+// If you need more than 2 alternative conditions, you can use if/else chains.
 
 var userAge = prompt('What is your age?');
 console.log(userAge);
@@ -43,5 +43,5 @@ else if (userAge >= 13) {
 	alert('Welcome to the game!');
 }
 else {
-	alert('Welcome to the game!');
+	alert('Your input must be a number');
 };
