@@ -1,4 +1,6 @@
-Create an alarm clock program. Send the user a confirmation
-saying 'Its 7am. Would you like to snooze?' If the user clicks
-ok, console.log 'Ok. Snoozing for 5 minutes.' If the user 
-clicks cancel, console.log 'Get up and keep moving forward.'
+Complete the following:
+
+Create an alarm clock program. Send the user a confirmation saying 'Its 7am. 
+Would you like to snooze?' If the user clicks ok, console.log 'Ok. Snoozing 
+for 5 minutes.' If the user clicks cancel, console.log 'Get up and keep 
+moving forward.'
