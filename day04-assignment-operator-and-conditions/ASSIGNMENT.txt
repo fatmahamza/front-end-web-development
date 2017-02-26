@@ -4,3 +4,14 @@ Create an alarm clock program. Send the user a confirmation saying 'Its 7am.
 Would you like to snooze?' If the user clicks ok, console.log 'Ok. Snoozing 
 for 5 minutes.' If the user clicks cancel, console.log 'Get up and keep 
 moving forward.'
+
+Secondary Assignment:
+
+Continue working on your guessing game. There are no specific instructions here.
+If you've not yet completed the basic steps, complete them. If you have, add to
+the game and make it as advanced as possible. If you can, add conditions. If you
+feel comfortable jumping ahead, try to take input from users through the HTML 
+<form> element and try displaying results through HTML elements instead of 
+console.log() or an alert.
+--- Make sure you complete the basic steps before making the game more advanced
+--- by adding other features.
