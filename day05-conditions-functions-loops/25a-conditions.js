@@ -1,12 +1,21 @@
-// Conditional execution allows certain code statements to be executed only under certain conditions.
+// Conditions
 
-var userAge = prompt('What is your age?');
+var userAge = prompt('What is your age?')
 
-// By using the keyword 'if', the following code will only be executed if the condition within
-// the parentheses evalueates as 'true'.
-if (userAge < 13) {
-	alert('You are too young to play this game.');
+4 == '4'
+4 === '4'
+
+if (userAge >= 13) {
+	console.log('Welcome!');
+} else {
+	console.log('gtfo');
 };
+
+
+
+// Check the user's name.  If it is your name, say 'Welcome.' If not, say
+// 'This isn't your computer'
+
 
 // What if you only want to perform the task when multiple conditions are true?
 

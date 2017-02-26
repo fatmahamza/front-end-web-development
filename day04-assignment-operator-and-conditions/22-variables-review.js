@@ -10,6 +10,7 @@ var fullName = 'Lord Voldemort';
 
 //Declaring multiple variables in the same line.
 var fname = 'Hermione', lname = 'Granger';
+var item1, item2, item3;
 
 
 //Using variables to handle an equation to find net salary and monthly net salary from annual salary
@@ -24,11 +25,14 @@ console.log(netSalary);
 
 //Find monthly net salary
 monthlyNetSalary = netSalary / 12;
-
 console.log(monthlyNetSalary);
 
 
-// Resolve this simple math problem using variables:
+// Martha went to the store 9 times.  She buys 2 erasers each time she goes to the store.
+// After her 9 visits, she had to return half of her erasers.  How many erasers does
+// Martha have?
 
-// Martha went to the store 9 times last month. She buys 2 erasers each time she goes to the 
-// store. How many erasers did Martha buy last month?
+var storeVisits, currentErasers;
+
+storeVisits = 9;
+currentErasers = (storeVisits * 2) / 2;

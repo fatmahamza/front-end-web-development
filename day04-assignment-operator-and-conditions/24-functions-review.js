@@ -1,9 +1,11 @@
-// Functions are a block of code meant to perform a specific task.  The point of a function is
-// that you can call it by name in order to perform that same task repeatedly. The within the 
-// parenthesis is called an argument.  Here are examples of functions:
+// Functions are a block of code meant to perform a specific task.  The point 
+//of a function is that you can call it by name in order to perform that 
+//same task repeatedly. The within the parenthesis is called an argument.  
+//Here are examples of functions:
 
 alert('Warning!');
-//In this statement we are "calling" the alert function and "passing" "'Warning!'" as an argument.
+//In this statement we are "calling" or "invoking" the alert function and 
+//"passing" "'Warning!'" as an argument.
 
 console.log('some text');
 //The console.log() function logs data in the JavaScript console of a browser.
