@@ -1,20 +1,12 @@
-// Conditions
+// Last week we worked on if/else conditions:
 
 var userAge = prompt('What is your age?')
-
-4 == '4'
-4 === '4'
 
 if (userAge >= 13) {
 	console.log('Welcome!');
 } else {
-	console.log('gtfo');
+	console.log('Access denied. You\'re too young for this game.');
 };
-
-
-
-// Check the user's name.  If it is your name, say 'Welcome.' If not, say
-// 'This isn't your computer'
 
 
 // What if you only want to perform the task when multiple conditions are true?
@@ -40,7 +32,7 @@ else {
 };
 
 
-// If you need more than 2 alternative conditions, you can use if/else chains.
+// If you need more than 2 alternative conditions, you can use if/else if chains.
 
 var userAge = prompt('What is your age?');
 console.log(userAge);

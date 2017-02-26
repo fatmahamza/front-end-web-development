@@ -1,7 +1,3 @@
-// This is an IIFE (Immediately Invoked Function Expression)
-(function() { 
-
-
 var fname = 'Farhad';
 function firstname() {
 	console.log(fname);
@@ -20,4 +16,3 @@ function rectangleArea(width, height) {
 };
 rectangleArea(10, 5);
 
-})();
