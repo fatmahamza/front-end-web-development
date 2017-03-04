@@ -1,0 +1,9 @@
+1. Answer just two of the following questions (bonus if you can answer more than 2):
+
+	a) What does REPL stand for?
+ 	b) Explain what "specificity" means? (we learned this during CSS)
+	c) What does it mean to increment or decrement a number?
+	d) Explain what a variable is.
+	e) What is the difference between '=' and '==' and '==='?
+
+2. 
