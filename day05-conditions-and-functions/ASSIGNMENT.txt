@@ -1,0 +1,16 @@
+Add to your guessing game by using conditions. At this point
+you should have the following completed:
+
+- Declare a variable called computerChoice and assign it the
+  value of a randomly generated number.
+
+- Declare a variable called userChoice and assign it the
+  value of a prompt asking the user to guess which number
+  the computer selected.
+
+- Create an if-else-if chain. One condition should check
+  whether userChoice is equal to computerChoice and respond
+  by telling them they won. 'else if' the guess doesn't match,
+  tell the user that they're incorrect. Lastly, if the user
+  hasn't typed in any value, then alert them saying they need
+  to input a number.
