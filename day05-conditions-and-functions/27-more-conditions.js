@@ -1,38 +1,11 @@
-// Last week we worked on if/else conditions:
-
-var userAge = prompt('What is your age?')
-
-if (userAge >= 13) {
-	console.log('Welcome!');
-} else {
-	console.log('Access denied. You\'re too young for this game.');
-};
+// We've covered 'if' statements and 'if-else' statements for when you want
+// to perform a different task if the condition is false. What if you need
+// multiple conditions? You can use if-else-if chains.
 
 
-// What if you only want to perform the task when multiple conditions are true?
-
-var userAge = prompt('What is your age?');
-var userLocation = prompt('What country are you located in?');
-
-if ((userAge < 13) || (userLocation !== 'USA')) {
-	alert('You are either too young or you reside in a country where this game is unavailable.');
-};
-
-
-// If you want 2 alternative conditions, you can use the 'else' keyword in combination with 'if'.
-
-var userAge = prompt('What is your age?');
-console.log(userAge);
-
-if (userAge < 13) {
-	alert('You are too young to play this game.');
-}
-else {
-	alert('Welcome to the game!');
-};
-
-
-// If you need more than 2 alternative conditions, you can use if/else if chains.
+// This takes the if-else example from lesson 26B a step further. If the
+// user leaves the prompt blank, it informs the user that they must input
+// a number.
 
 var userAge = prompt('What is your age?');
 console.log(userAge);
