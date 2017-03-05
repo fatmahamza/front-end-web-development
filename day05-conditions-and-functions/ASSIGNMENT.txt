@@ -10,7 +10,8 @@ you should have the following completed:
 
 - Create an if-else-if chain. One condition should check
   whether userChoice is equal to computerChoice and respond
-  by telling them they won. 'else if' the guess doesn't match,
-  tell the user that they're incorrect. Lastly, if the user
-  hasn't typed in any value, then alert them saying they need
-  to input a number.
+  by telling them they won. 'else if' the guess is equal to
+  an empty string, tell the user that they need to input a
+  valid number. Lastly, if the user does anything other than
+  respond with an empty string or provide a correct value,
+  then alert them saying they need their answer is incorrect.
