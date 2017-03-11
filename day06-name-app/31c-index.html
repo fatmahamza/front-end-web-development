@@ -8,9 +8,10 @@
 <body>
 	<h1>Full Name App</h1>
 
+	<!-- The id attribute is used to allow the JS file to access a particular HTML element  -->
 	<form id="name-form">
 		<label>Input your first name here</label>
-		<input type="text" id="input-first-name">
+		<input type="text" id="input-first-name"> <!-- I place the name of the element within the id in order to make it clear in my JS file exactly what I'm referring to. -->
 
 		<label>Input your last name here</label>
 		<input type="text" id="input-last-name">
@@ -18,6 +19,7 @@
 		<button type="submit">Enter</button>
 	</form>
 
+	<!-- This is where my ouput will be placed with JS. I will fill the <p> element with a string. -->
 	<p id="p-full-name"></p>
 
 	<script type="text/javascript" src="31d-script.js"></script>
