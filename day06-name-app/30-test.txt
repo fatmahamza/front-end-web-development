@@ -1,0 +1,12 @@
+1) Boolean Operators: Compare a number with another number. Check if the first number is bigger
+(DAY 03)
+
+2) If and else-if statements: Declare a variable called userAge and ask the user for their age. IF the user is at least 18, prompt them saying "welcome". Else if the input is blank (empty string), tell the user they need to input something. Otherwise, tell them they cannot access the website.
+(DAY 05)
+
+
+3a) create a function called phraseLog that has one parameter. This function should do a 
+console.log() for whatever gets passed as an argument.
+
+3b) call the function.
+(DAY 05)
