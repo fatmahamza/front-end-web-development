@@ -7,4 +7,7 @@ know whether they guessed the right number and input that data into the empty <p
 
 Extended Assignment:
 
-Add more functionality. Give the user multiple chances to get the correct answer. Tell the user if the correct answer is lesser or greater than their guess. Also add CSS; add a background, change some colors, and align elements in a way that looks appealing.  
+Add more functionality. Give the user multiple chances to get the correct answer.
+Tell the user if the correct answer is lesser or greater than their guess. Also add
+CSS; add a background, change some colors, and align elements in a way that looks
+appealing.  
