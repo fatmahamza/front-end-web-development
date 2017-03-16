@@ -1,0 +1,10 @@
+Basic - graded out of 10 pts.
+
+Update your game. Create an HTML file and a separate JS file. Link your JS to your
+HTML. Create a form with a label and input for the user to guess a number that is
+randomly generated. Also create an empty <p></p> element. Use JS to let the user
+know whether they guessed the right number and input that data into the empty <p>.
+
+Extended Assignment:
+
+Add more functionality. Give the user multiple chances to get the correct answer. Tell the user if the correct answer is lesser or greater than their guess. Also add CSS; add a background, change some colors, and align elements in a way that looks appealing.  
