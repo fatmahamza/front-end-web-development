@@ -1,0 +1,17 @@
+Basic (out of 10 points):
+
+- Add all the features covered in day07 to your game app. Your game app should now
+be getting input from a user via an HTML form, should output when a button is
+clicked, and the output should be displayed on the page. 
+
+- Your game should also clear the input box of any data when the user clicks the
+button.
+
+- Your game should inform the user that they need to input a number if they leave the textbox blank when clicking the submit button.
+
+- Lastly, your app's JS should now also be contained inside an IIFE.
+
+
+Extra points:
+
+Try adding loops to your game to give the user 3 tries to guess the right number. We haven't covered loops yet so this will let you jump ahead and sharpen your Googling skills.

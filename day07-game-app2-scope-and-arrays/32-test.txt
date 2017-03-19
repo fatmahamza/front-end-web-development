@@ -1,0 +1,20 @@
+Create an HTML file. Create a form with a label, input, and button. Create a JS file and alert 'test' when the button is clicked. 
+
+HTML
+
+<form id='some-form'> 
+	<label></label>
+	<input>
+	<button></button>
+
+</form>
+
+<script src='thejsfile.js'> </script>
+
+
+JS
+
+getelementbyid('some-form').eventlistener {
+	
+	alert('test');
+}
