@@ -1,0 +1,22 @@
+We briefly discussed a new way to access your computer's Operating System - using your Mac Terminal (or
+Babun if you have Windows). Here are some common commands we discussed.
+
+cd
+- Short for change directory
+
+ls
+- To list the items in a directory
+
+mv
+- To move a file or folder from one location to another
+- Also used to rename files
+
+
+We also discussed absolute vs relative path.  For example, you can list the items inside
+a folder without being inside that specific folder.
+
+Let's say I have a Repositories folder. Inside that, I have two folders - web-development and
+my-game-app.  If I'm currently inside web-development I can list the items inside my-game-app
+by writing
+
+ls ../my-game-app
