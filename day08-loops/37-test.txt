@@ -1,0 +1,9 @@
+1. Generate a random whole number and assign the value to a variable called 
+   randomNum. Put this inside an IIFE.
+
+2. Explain what an IIFE is. (In one or two sentences)
+Immediately Invoked Function Expression.  Used for scope and preventing variables from taking up space.
+
+3. What is the difference between an argument and a parameter? (this has to do with functions)
+
+Bonus question: Create an array
