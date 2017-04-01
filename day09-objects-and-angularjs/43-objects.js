@@ -21,3 +21,10 @@ var lukeCage = {
 console.log(orangeIsTheNewBlack.avrgRating);
 console.log(lukeCage.category);
 
+
+var category1 = orangeIsTheNewBlack.category;
+
+
+// An object's properties can also be accessed using "bracket notation"
+console.log(orangeIsTheNewBlack['avrgRating']);
+var views1 = lukeCage['viewsToDate'];

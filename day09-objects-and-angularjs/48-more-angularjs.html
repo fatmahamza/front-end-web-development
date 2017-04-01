@@ -1,0 +1,26 @@
+<!doctype html>
+
+<!-- ng-app is a directive. Directives are markers on DOM elements. ng-app tells the 
+     browser that this HTML file is an Angular application.-->
+
+<!-- Directives can be attributes like ng-app or they can be HTML elements that render
+     JS components. You can think of directives as instructions for Angular to describe
+     what it should do to these elements or how they should be represented in the DOM.
+-->
+<html lang="en" ng-app>
+<head>
+	<title>Bootstrapping AngularJS Apps</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+</head>
+
+<!-- The ng-init attribute is responsible for creating directives within its scope -->
+<body ng-init="currentUser = 'Amy'">
+
+	<!-- ng-model is used to bind the value of an input to a variable created in Angular -->
+	Enter your name: <input ng-model="currentUser">
+	<!-- Code within curly braces is JS -->
+	<p>Welcome to your account {{currentUser}}.</p> 
+	<date-picker></date-picker>
+	<div class="date-picker"></div>
+</body>
+</html>
