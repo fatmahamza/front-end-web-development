@@ -1,0 +1,5 @@
+1. Create a loop that logs numbers 0-15
+
+2. Create an array of your favorite songs. Loop through the array and 
+   log each song.
+

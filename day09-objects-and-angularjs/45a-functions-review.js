@@ -1,41 +1,46 @@
 // A function without parameters
-function pirateGreeting() {
-	console.log('Shiver me timbers! It be Captain Blackbeard!');
+function greet() {
+	console.log('Hello');
 };
 
-pirateGreeting();
+greet();  // Invoking the function
+
 
 // A function with one parameter
-function circleArea(radius) {
-	return 3.14 * radius * radius
+var username = 'TonyStark';
+
+function greet2(user) {
+	console.log('Hello, ' + user);
 };
 
-var circle1 = circleArea(5);
-var circle2 = circleArea(10);
+greet2(username); // Invoking the function
+
 
 // A function with two parameters
-function rectangleArea(length, width) {
-	return length * width;
+function rectangleArea(l, w) {
+	console.log(l * w);
 };
 
-var rect1 = rectangleArea(5, 10);
-var rect2 = rectangleArea(7, 3);
+rectangleArea(5, 2); // Invoking the function
 
 
 
-// Scope
+// We can also use a function to retrieve object information
+// We'll begin by creating an object and then create a function that greets the
+// user depending on the user's age.
 
-var legendarySinger = 'Johnny Cash'; //Variable with global scope
-
-function greet() {
-	console.log('Hello, ' + legendarySinger);
+var amy = {
+	age: 17,
+	height: '5 feet 9 inches',
+	hairColor: 'black'
 };
 
-greet();
-
-
-function greet2() {
-	var legendaryGuitarist = 'Jimi Hendrix' //local variable
-	console.log('Hello, ' + legendaryGuitarist);
+function programmingGreet(usersage) {
+	if (usersage.age < 20) {
+		console.log('Good job starting programming so early!');
+	} else {
+		console.log('Welcome to programming!');
+	};
 };
-greet2();
+
+programmingGreet(amy);

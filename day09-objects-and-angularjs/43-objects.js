@@ -1,30 +1,29 @@
-// This is an object
-var bob = {};
+// Creating an object
+var obj = {};
 
 // Objects have properties
-// Netflix movies
+// Example: Netflix's movies/tv shows may be represented as objects
 
-
-var orangeIsTheNewBlack = {
-	avrgRating: 4,
-	viewsToDate: 123,
-	category: 'drama'
+var supernatural = {
+	title: 'Supernatural',
+	avgRating: 4.5,
+	genres: ['adventure', 'action']
 };
 
-var lukeCage = {
-	avrgRating: 5,
-	viewsToDate: 12,
-	category: 'action'
+var friends = {
+	title: 'Friends',
+	avgRating: 5,
+	genres: ['comedy', 'romance', 'drama']
 };
 
 // An object's properties can be accessed using "dot notation"
-console.log(orangeIsTheNewBlack.avrgRating);
-console.log(lukeCage.category);
+console.log(supernatural.genres);
+console.log(friends.title);
 
 
-var category1 = orangeIsTheNewBlack.category;
+// Another way to access an object's properties is "bracket notation"
+console.log(supernatural['genres']);
+console.log(friends['title']);
 
-
-// An object's properties can also be accessed using "bracket notation"
-console.log(orangeIsTheNewBlack['avrgRating']);
-var views1 = lukeCage['viewsToDate'];
+// It's uncommon to see bracket notation used. Unless you have a good
+// reason, you should be using dot notation.
