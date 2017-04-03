@@ -1,0 +1,12 @@
+Imagine you've created an app that requires users to provide information about
+themselves. Create objects to represent 4 users. Each user should have the
+following properties:
+
+name
+username
+age
+location
+
+Use object literal notation to create these objects. Then create a function with one parameter which logs the year a user was born when passed their age.  (For 
+example, if the user is 45, your code should return 2017-45 in order to get the
+year of birth.)
