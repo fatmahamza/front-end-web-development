@@ -1,0 +1,27 @@
+{ PowerPoint }
+
+
+First, what is a framework?
+
+A programming language's framework describes how you should write your code in order to
+accomplish a given task.
+
+What is MVC?
+
+Is a design pattern that includes a model, view, and controller.
+- Model stores data
+- View presents the data
+- Controller controls the logic of how user interactions are handled.
+
+Example: Pandora
+
+Model = playlist which is an array of songs
+View = The icons that allow a user to pause, play, or skip songs
+Controller = The logic that begins a song, stops the song, or moves the next song when a user clicks a button.
+
+What is Angular.js?
+
+Angular.js is a JavaScript framework that was created to simplify the building of Single Page Applications.
+
+
+What is a Single Page Application?  Why is it used?
