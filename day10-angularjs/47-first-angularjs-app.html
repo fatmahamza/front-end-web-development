@@ -1,11 +1,8 @@
 <!doctype html>
 
-<!-- ng-app is a directive. Directives are markers on DOM elements. ng-app tells the 
-     browser that this HTML file is an Angular application.-->
+<!-- ng-app is a directive. Directives are markers on DOM elements. ng-app tells the browser that this HTML file is an Angular application.-->
 
-<!-- Directives can be attributes like ng-app or they can be HTML elements that render
-     JS components. You can think of directives as instructions for Angular to describe
-     what it should do to these elements or how they should be represented in the DOM.
+<!-- Directives can be attributes like ng-app or they can be HTML elements that render JS components. You can think of directives as instructions for Angular to describe what it should do to these elements or how they should be represented in the DOM.
 -->
 <html lang="en" ng-app>
 <head>
@@ -13,9 +10,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
 </head>
 <body>
-	<!-- Code within curly braces is JS -->
-	<p>I have made {{1 + ' Million'}} apps!</p> 
-	<date-picker></date-picker>
-	<div class="date-picker"></div>
+	<!-- Code within double curly braces is JS -->
+	<p>I have made {{'1 ' + 'Million'}} apps!</p> 
+
+	<!-- How else does Angular work? We can create empty elements and use Angular to fill them with content. We can even make our own elements the way we make 
+	variables. -->
+	<greet-user></greet-user>
+	<div class="greet-user"></div>
 </body>
 </html>
