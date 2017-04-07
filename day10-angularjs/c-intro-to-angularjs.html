@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 
 <html ng-app="Greet">
 <head>
@@ -39,12 +39,12 @@
 
 </body>
 </html>
+ -->
 
 
 
 
-
-<!-- <!doctype html>
+<!doctype html>
 <html lang="en" ng-app="Note">
 <head>
 	<meta charset="UTF-8">
@@ -66,12 +66,9 @@
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
-	<script type="text/javascript" src="app.js"></script>
-</body>
-</html>
+	<!--<script type="text/javascript" src="app.js"></script> -->
 
-
-<script type="text/javascript">
+	<script type="text/javascript">
 angular.module('Note',[]).
 controller('noteController',['$scope',function($scope){
   $scope.notes = [
@@ -91,4 +88,29 @@ controller('noteController',['$scope',function($scope){
   };
 
 }])
-</script> -->
+</script>
+</body>
+</html>
+
+
+<script type="text/javascript">
+// angular.module('Note',[]).
+// controller('noteController',['$scope',function($scope){
+//   $scope.notes = [
+//     {'title':'Build a note app','done':false}
+//   ];
+
+//   // This function will add items to the Note list
+//   $scope.addNote = function(){
+//     $scope.notes.push({'title':$scope.newNote,'done':false})
+//     $scope.newNote = ''
+//   };
+
+//   $scope.clearCompleted = function(){
+//     $scope.notes = $scope.notes.filter(function(item){
+//       return !item.done
+//     })
+//   };
+
+// }])
+// </script>
