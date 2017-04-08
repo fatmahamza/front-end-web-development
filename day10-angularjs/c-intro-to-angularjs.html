@@ -1,49 +1,3 @@
-<!-- <!DOCTYPE html>
-
-<html ng-app="Greet">
-<head>
-	<title>Intro to Angular.js</title>
-</head>
-<body>
-
-	<div ng-controller="greetController">
-		<form name="frm" ng-submit="greet()">
-			<label>Name:</label>
-			<input type="text" ng-model="yourName">
-			<button>Enter</button>
-		</form>
-	</div>
-
-	<p>Hello, {{yourName}}</p>
-
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
-
-<script type="text/javascript">
-
-	angular.module('Greet',[]).
-	controller('greetController',['$scope',function($scope){
-	  // $scope.notes = [
-	  //   {'title':'Build a note app','done':false}
-	  // ];
-
-	  // This function will add items to the Note list
-	  $scope.greet = function(){
-	  	{'yourName':}
-	    $scope.notes.push({'title':$scope.newNote,'done':false})
-	    $scope.newNote = ''
-	  };
-
-	}])
-
-</script>
-
-</body>
-</html>
- -->
-
-
-
-
 <!doctype html>
 <html lang="en" ng-app="Note">
 <head>
@@ -51,11 +5,16 @@
 	<title>Notes App</title>
 </head>
 <body>
+
+	<h1>My Note App</h1>
+
 	<div ng-controller="noteController">
+
 		<form name="frm" ng-submit="addNote()">
-			<input type="text" name="newNote" ng-model="newNote" required />
-			<button ng-disabled="frm.$invalid">Go</button>
+			<input type="text" ng-model="newNote" required />
+			<button ng-disabled="frm.$invalid">Enter</button>
 		</form>
+
 		<button ng-click="clearCompleted()">Clear Completed</button>
 		<ul>
 			<li ng-repeat="note in notes">
@@ -65,52 +24,38 @@
 		</ul>
 	</div>
 
+
+
+
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
-	<!--<script type="text/javascript" src="app.js"></script> -->
 
-	<script type="text/javascript">
-angular.module('Note',[]).
-controller('noteController',['$scope',function($scope){
-  $scope.notes = [
-    {'title':'Build a note app','done':false}
-  ];
+	
+	<script type="text/javascript" src="app.js">
 
-  // This function will add items to the Note list
-  $scope.addNote = function(){
-    $scope.notes.push({'title':$scope.newNote,'done':false})
-    $scope.newNote = ''
-  };
+	angular.module('Note',[]).controller('noteController',['$scope',function($scope){
+	  
+	  $scope.notes = [{
+	      'title':'Build a note app',
+	      'done':false
+	  }];
+	
+	  $scope.addNote = function(){
+	    $scope.notes.push({'title':$scope.newNote,'done':false});
+	    $scope.newNote = '';
+	  };
+	
+	  $scope.clearCompleted = function(){
+	    $scope.notes = $scope.notes.filter(function(item){
+	       return !item.done;
+	    });
+	  };
 
-  $scope.clearCompleted = function(){
-    $scope.notes = $scope.notes.filter(function(item){
-      return !item.done
-    })
-  };
+	}]);
 
-}])
-</script>
+	</script>
+
+
+
+
 </body>
 </html>
-
-
-<script type="text/javascript">
-// angular.module('Note',[]).
-// controller('noteController',['$scope',function($scope){
-//   $scope.notes = [
-//     {'title':'Build a note app','done':false}
-//   ];
-
-//   // This function will add items to the Note list
-//   $scope.addNote = function(){
-//     $scope.notes.push({'title':$scope.newNote,'done':false})
-//     $scope.newNote = ''
-//   };
-
-//   $scope.clearCompleted = function(){
-//     $scope.notes = $scope.notes.filter(function(item){
-//       return !item.done
-//     })
-//   };
-
-// }])
-// </script>

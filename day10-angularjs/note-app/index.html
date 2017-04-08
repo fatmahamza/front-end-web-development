@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" ng-app="Note">
+<head>
+	<meta charset="UTF-8">
+	<title>Notes App</title>
+</head>
+<body>
+
+	<h1>My Note App</h1>
+
+	<!-- ng-controller is a directive that adds a controller from our JS file to a part of our HTML -->
+	<!-- In the controller we can write code, make functions and variables which can be made available inside a specified HTML element-->
+	<div ng-controller="noteController">
+
+		<!-- When the form is submitted, the addNote() function is run -->
+		<form name="frm" ng-submit="addNote()">
+
+			<!-- ng-model is used to bind the value of an input to a variable created in Angular. Below we will use the value in the input box and push that value
+			into the notes array within our JS. -->
+			<input type="text" ng-model="newNote" required />
+
+			<!-- The 'required' attribute above tells the browser that the form is invalid if it's empty. The ng-disabled attribute below tells the browser to disable the button if the input is invalid. -->
+			<button ng-disabled="frm.$invalid">Enter</button>
+		</form>
+
+		<!-- When this button is clicked we'll invoke the clearCompleted() function -->
+		<button ng-click="clearCompleted()">Clear Completed</button>
+		<ul>
+
+			<!-- The ng-repeat directive repeats an HTML element with the data specified -->
+			<li ng-repeat="note in notes">
+				<!-- Below we're specifying that ng-repeat should repeat <li> elemnts with a checkbox and a note -->
+				<input type="checkbox" ng-model="note.done" />
+				{{note.title}}
+			</li>
+		</ul>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
