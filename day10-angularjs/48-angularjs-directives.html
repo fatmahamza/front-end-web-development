@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<!-- ng-app is a directive. Directives are markers on HTML elements. ng-app tells the browser that this HTML file is an Angular application -->
+
+<!-- Directives can be attributes like ng-app or they can be HTML elements that render JS components. -->
+
+<!-- You can think of directives as instructions for the Angular to describe what it should to to these
+elements or how the elements should be represented. -->
+
+<html ng-app>
+<head>
+	<title>Angular Directives</title>
+</head>
+<body>
+
+	<!-- Code within double curly braces is JS -->
+	<p>I have made {{'1 ' + 'million'}} apps!</p>
+
+	<!-- We can create empty elements and use Angularto fill them with content. -->
+	<!-- We can even make our own elements similarly to how we make variables. -->
+	<greet-user></greet-user>
+	<div class="greet-user"></div>
+
+	<!-- To use Angular, we link to a CDN (Content Delivery Network) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js" ></script>
+</body>
+
+</html>

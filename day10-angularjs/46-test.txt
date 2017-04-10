@@ -1,0 +1,6 @@
+Create an object called billy.  Give the object the following properties: 
+
+- the object's name is 'Billy Joel'
+- the object's instrument is 'guitar'
+- the object's location is 'Los Angeles'
+
