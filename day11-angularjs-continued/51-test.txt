@@ -1,1 +1,5 @@
 Angular test
+
+1. Describe what an Angular directive is.
+
+2. Give an example of an Angular directive.

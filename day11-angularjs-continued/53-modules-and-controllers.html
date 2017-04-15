@@ -7,10 +7,14 @@
 <body>
 	<h1>Angular Modules and Controllers</h1>
 
+	<!-- ng-controller is a directive that adds a controller from our JS file to a part of our HTML -->
+	<!-- In the controller we can write code, make functions and variables which can be made available inside a specified HTML element-->
 	<div ng-controller="someController">
+
+		<!-- Double curly braces contains JS. We're using the variables from our
+		controller within the <p> element -->
 		<p>Full name: {{firstName + ' ' + lastName}}</p>
 	</div>
-
 
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 	<script type="text/javascript">
