@@ -1,0 +1,20 @@
+Create a LinkedIn profile. This is an ungraded assignment but doing it and allowing me to review
+it with you in the last class will greatly boost your chances of finding employment in the field.
+
+- Add a picture that shows your face. Make sure it's zoomed in enough that it doesn't show
+  anything lower than your stomach. It should at least show your face and shoulders.
+
+- Add tech-related skills. (CSS, JavaScript, HTML, Node)
+
+- Add your classmates on LinkedIn
+
+- Endorse each others' skills.
+
+- If you already have a LinkedIn remove any skills that won't be helpful in the field of
+  technology. If you're serious about entering the field of technology, you have to create 
+  a brand here. You're showing that your main interest and passion is in technology. 
+  Recruiters and potential employers are looking at your profile for 30 seconds before 
+  making a decision.
+
+- When writing about your work experiences try to emphasize any technical aspects of your
+  roles.
