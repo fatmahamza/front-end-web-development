@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 
-<!-- ng-app is a directive. Directives are markers on HTML elements. ng-app tells the browser that this HTML file is an Angular application -->
+<!-- ng-app is a directive. Directives are markers on HTML elements. ng-app tells the browser that this HTML file is an Angular app. -->
 
-<!-- Directives can be attributes like ng-app or they can be HTML elements that render JS components. -->
-
-<!-- You can think of directives as instructions for the Angular to describe what it should to to these
-elements or how the elements should be represented. -->
+<!-- Think of directives as instructions for Angular that describe what it should do to these elements or how the elements should be represented. -->
 
 <html ng-app>
+
 <head>
-	<title>Angular Directives</title>
+	<title>Directies Review</title>
 </head>
 
 <!-- The ng-init attribute is a directive that's responsible for creating values within the specified scope.  -->
@@ -17,13 +15,13 @@ elements or how the elements should be represented. -->
 <body ng-init="currentUser = 'Sabah'">
 
 	<!-- ng-model is used to bind the value of an input to a variable created in Angular. -->
-	<!-- Below, we're binding the value created by ng-init -->
-	Enter your name: <input ng-model="currentUser">
+	<!-- Below, we are binding the value created by ng-init -->
+	Enter your name: <input type="text" ng-model="currentUser">
 
-	<!-- Double curly braces contains JS -->
+	<!-- Double curly braces contain JS -->
 	<p>Welcome to your account, {{currentUser}}.</p>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js" ></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 
 </body>
 
