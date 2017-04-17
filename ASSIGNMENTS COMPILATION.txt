@@ -1,0 +1,159 @@
+Assignment 1:
+
+Complete the following:
+
+Create an alarm clock program. Send the user a confirmation saying 'Its 7am. 
+Would you like to snooze?' If the user clicks ok, console.log 'Ok. Snoozing 
+for 5 minutes.' If the user clicks cancel, console.log 'Get up and keep 
+moving forward.'
+
+Secondary Assignment (this part will only be graded on how much you've added
+compared to your previous draft):
+
+Continue working on your guessing game. There are no specific instructions here.
+If you've not yet completed the basic steps, complete them. If you have, add to
+the game and make it as advanced as possible. If you can, add conditions. If you
+feel comfortable jumping ahead, try to take input from users through the HTML 
+<form> element and try displaying results through HTML elements instead of 
+console.log() or an alert.
+--- Make sure you complete the basic steps before making the game more advanced
+--- by adding other features.
+
+
+
+
+
+Assignment 2:
+
+Add to your guessing game by using conditions. At this point
+you should have the following completed:
+
+- Declare a variable called computerChoice and assign it the
+  value of a randomly generated number.
+
+- Declare a variable called userChoice and assign it the
+  value of a prompt asking the user to guess which number
+  the computer selected.
+
+- Create an if-else-if chain. One condition should check
+  whether userChoice is equal to computerChoice and respond
+  by telling them they won. 'else if' the guess is equal to
+  an empty string, tell the user that they need to input a
+  valid number. Lastly, if the user does anything other than
+  respond with an empty string or provide a correct value,
+  then alert them saying they need their answer is incorrect.
+
+
+
+
+Assignment 3:
+
+Basic - graded out of 10 pts.
+
+Update your game. Create an HTML file and a separate JS file. Link your JS to your
+HTML. Create a form with a label and input for the user to guess a number that is
+randomly generated. Also create an empty <p></p> element. Use JS to let the user
+know whether they guessed the right number and input that data into the empty <p>.
+
+Extended Assignment for extra credit:
+
+Add more functionality. Give the user multiple chances to get the correct answer.
+Tell the user if the correct answer is lesser or greater than their guess. Also add
+CSS; add a background, change some colors, and align elements in a way that looks
+appealing.  
+
+
+
+
+Assignment 4:
+
+Basic (out of 10 points):
+
+- Add all the features covered in day07 to your game app. Your game app should now
+be getting input from a user via an HTML form, should output when a button is
+clicked, and the output should be displayed on the page. 
+- Your game should also clear the input box of any data when the user clicks the
+button.
+- Your game should inform the user that they need to input a number if they leave the 
+  textbox blank when clicking the submit button.
+- Lastly, your app's JS should now also be contained inside an IIFE.
+
+Extra points:
+
+Try adding loops to your game to give the user 3 tries to guess the right number. We 
+haven't covered loops yet so this will let you jump ahead and sharpen your Googling 
+skills.
+
+
+
+
+Assignment 5:
+
+Basic assignment graded out of 10:
+
+Let's add a new feature to your guessing game. Right now, the computer generates a 
+random number and the user has to guess that number. The user only has one try to guess 
+the correct number. Let's add a feature that gives them 3 tries.  Use a loop to give the 
+user multiple tries.  If they guess the wrong number, they should receive a message 
+telling them that their guess is incorrect and tell them how many tries they have left.
+
+Bonus question:
+
+Log numbers 1-14.  But there's a twist:
+-If the number is divisible by 3, log 'Fizz' instead of the number.
+-If the number is divisible by 5, log 'Buzz' instead of the number.
+
+To complete this, you will need to use a loop and use modulo (the % sign). Modulo was
+covered on day 3 under the numbers lesson.
+
+
+
+
+Assignment 6:
+
+Imagine you've created an app that requires users to provide information about
+themselves. Create objects to represent 4 users. Each user should have the
+following properties:
+
+name
+username
+age
+location
+
+Use object literal notation to create these objects. Then create a function with one 
+parameter which logs the year a user was born when passed their age. (For example, if the 
+user is 45, your code should return 2017-45 in order to get the year of birth.)
+
+
+
+
+Assignment 7:
+
+Your assignment for the week is to review the Angular lessons and understand directives. There
+is nothing to turn in for this assignment.
+
+
+
+
+Assignment 8:
+
+Create a LinkedIn profile. This is an ungraded assignment but doing it and allowing me to review
+it with you in the last class will greatly boost your chances of finding employment in the field.
+
+- Add a picture that shows your face. Make sure it's zoomed in enough that it doesn't show
+  anything lower than your stomach. It should at least show your face and shoulders.
+
+- Add tech-related skills. (CSS, JavaScript, HTML, Node)
+
+- Add your classmates on LinkedIn
+
+- Endorse each others' skills.
+
+- If you already have a LinkedIn remove any skills that won't be helpful in the field of
+  technology. If you're serious about entering the field of technology, you have to create 
+  a brand here. You're showing that your main interest and passion is in technology. 
+  Recruiters and potential employers are looking at your profile for 30 seconds before 
+  making a decision.
+
+- When writing about your work experiences try to emphasize any technical aspects of your
+  roles.
